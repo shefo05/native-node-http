@@ -1,0 +1,13 @@
+
+    1. Node.js Event Loop:
+Runs asynchronous callbacks when the call stack is empty.
+    2. Libuv:
+A library that provides the event loop and handles async operations.
+    3. Async operations in Node.js:
+They run in the background and their callbacks are executed later by the event loop.
+    4. Call Stack vs Event Queue vs Event Loop:
+Call Stack runs code, Event Queue stores callbacks, Event Loop moves callbacks to the stack.
+    5. Node.js Thread Pool:
+Background threads for heavy tasks; size set using UV_THREADPOOL_SIZE.
+    6. Blocking vs Non-Blocking:
+Blocking stops execution; non-blocking allows other code to run.
